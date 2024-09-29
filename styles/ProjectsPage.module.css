@@ -1,0 +1,162 @@
+/* .container {
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+} */
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.card {
+  background: var(--article-bg);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* .h4 {
+  font-size: 0.5em;
+  margin-bottom: 10px;
+  color: indigo;
+} */
+
+.location {
+  font-size: 1.1em;
+  color: #888;
+}
+
+.dates {
+  font-size: 1em;
+  color: #aaa;
+
+  margin-bottom: 10px;
+}
+
+.company {
+  font-size: 1em;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: rgb(154, 83, 204);
+}
+
+.skillsContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skillTag {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  background-color: #222;
+  color: #fff;
+  border: 0.1px solid #aaa;
+}
+
+.skillTag:hover {
+  background-color: #fff;
+  color: #222;
+  border-color: #61dafb; /* or any other color for the border on hover */
+  cursor: pointer; /* To show a pointer cursor on hover */
+}
+
+.ReactJS {
+  border-color: #61dafb;
+  background-color: #61dafb;
+  color: #000;
+}
+
+.JQuery {
+  border-color: #1b73ba;
+  background-color: #1b73ba;
+  color: #fff;
+}
+
+.SQL {
+  border-color: #f29111;
+  background-color: #f29111;
+  color: #fff;
+}
+
+.DataAnalysis {
+  border-color: #ee4c2c;
+  background-color: #ee4c2c;
+  color: #fff;
+}
+
+.CSS {
+  border-color: #ff6f00;
+  background-color: #ff6f00;
+  color: #fff;
+}
+
+.JavaScript {
+  border-color: #46d092;
+  background-color: #46d092;
+  color: #000;
+}
+
+.Excel {
+  border-color: #68a063;
+  background-color: #68a063;
+  color: #fff;
+}
+
+.BusinessCommunication {
+  border-color: #de89a8;
+  background-color: #de89a8;
+  color: #fff;
+}
+
+.ReactNative {
+  border-color: #11557c;
+  background-color: #11557c;
+  color: #fff;
+}
+
+.NodeJS {
+  border-color: #00a4ef;
+  background-color: #00a4ef;
+  color: #fff;
+}
+
+.iOS {
+  border-color: #3b82f6;
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.Android {
+  border-color: #007acc;
+  background-color: #007acc;
+  color: #fff;
+}
+
+
+
+/* You can add specific color styles for other skills similarly */
+
+.hr {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.experience {
+  margin-top: 1rem;
+}
