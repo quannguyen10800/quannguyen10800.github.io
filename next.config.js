@@ -62,3 +62,4 @@ module.exports = {
     domains: ['avatars.githubusercontent.com', 'res.cloudinary.com', 'imgur.com'],
   },
 };
+
