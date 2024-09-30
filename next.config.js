@@ -30,26 +30,36 @@
 
 // export default nextConfig;
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    domains: ['avatars.githubusercontent.com'], 
-    unoptimized: true,// Add the hostname here
-  },
-  output: 'export' // Add this line for static export
-};
-
-export default nextConfig;
-
-// module.exports = {
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
 //   images: {
-//     unoptimized: true,
-//     domains: [
-//       'res.cloudinary.com',
-//       'avatars.githubusercontent.com',
-//       'imgur.com',
-//     ],
-//   }
+//     domains: ['avatars.githubusercontent.com'], 
+//     unoptimized: true,// Add the hostname here
+//   },
+//   output: 'export' // Add this line for static export
 // };
 
+// export default nextConfig;
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   output: 'export',
+//   images: {
+//     unoptimized: true,
+//     domains: ['res.cloudinary.com', 'avatars.githubusercontent.com', 'imgur.com'],
+//   },
+  
+// };
+
+// export default nextConfig;
+
+
+// next.config.js (CommonJS)
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+    domains: ['avatars.githubusercontent.com', 'res.cloudinary.com', 'imgur.com'],
+  },
+};
 
