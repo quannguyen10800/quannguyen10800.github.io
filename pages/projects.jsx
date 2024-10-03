@@ -101,7 +101,7 @@ const education = [
     title: 'Master of Data Analytics',
     institution: 'Queensland University of Technology',
     location: 'Brisbane, QLD, Australia',
-    startDate: 'July 2024',
+    startDate: 'February 2025',
     endDate: 'present',
   },
 ];
