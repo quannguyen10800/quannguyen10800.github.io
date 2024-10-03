@@ -17,7 +17,7 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="Quan Nguyen's Profolio."
       />
-      <meta property="og:image" content="/quan_link.png" />
+      {/* <meta property="og:image" content="/quan_link.png" /> */}
       <meta property="og:url" content="https://quannguyen10800.github.io" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
