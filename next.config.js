@@ -55,11 +55,24 @@
 
 
 // next.config.js (CommonJS)
-module.exports = {
+// module.exports = {
+//   reactStrictMode: true,
+//   images: {
+//     unoptimized: true,
+//     domains: ['avatars.githubusercontent.com', 'res.cloudinary.com', 'imgur.com'],
+//   },
+// };
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",  // <=== enables static exports
   reactStrictMode: true,
   images: {
-    unoptimized: true,
-    domains: ['avatars.githubusercontent.com', 'res.cloudinary.com', 'imgur.com'],
-  },
+         unoptimized: true,
+         domains: ['avatars.githubusercontent.com', 'res.cloudinary.com', 'imgur.com'],
+       },
 };
+
+module.exports = nextConfig;
+
 
